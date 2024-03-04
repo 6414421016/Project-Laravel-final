@@ -1,0 +1,57 @@
+.home-menu {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+}
+ 
+.text-home {
+    width: 90%;
+    text-align: left;
+}
+
+.data-home {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.data-box1,
+.data-box2,
+.data-box3 {
+    width: 230px;
+    height: 7rem;
+    /* border: 1px solid saddlebrown; */
+    margin: 0 1rem;
+}
+
+.data-box1 h2,
+.data-box2 h2,
+.data-box3 h2 {
+    margin: -0.3rem .7rem;
+}
+
+.data-box1 {
+    background: rgba(129, 129, 129, 0.457);
+}
+
+.data-box2 {
+    background:  rgba(129, 129, 129, 0.457);
+}
+
+.data-box3 {
+    background:  rgba(129, 129, 129, 0.457);
+}
+
+
+
+.datalist-month-home {
+    width: 90%;
+    margin-top: 1.5rem;
+}
+.datalist-data{
+    height: 50vh;
+}
+
+
+
+

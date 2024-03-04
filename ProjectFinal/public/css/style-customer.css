@@ -1,0 +1,239 @@
+
+/* table design  */
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+/* .customer-menu design  */
+.customer-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    position: relative;
+}
+
+.text-customer {
+    margin: 1rem 0.5rem;
+}
+
+/* button customer design  */
+.button-customer {
+    margin: 0 2rem;
+    width: 5rem;
+    height: 2rem;
+}
+
+.button-customer a {
+    background: rgb(84, 173, 242);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    padding: .5rem .9rem;
+}
+
+.button-customer a i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.button-customer a i span {
+    font-size: 20px;
+    color: #111;
+}
+
+/* tables design  */
+table {
+    margin: 1.5rem 1.3rem;
+    width: 70%;
+}
+
+table tr td {
+    /* width: 15rem; */
+    height: 2rem;
+}
+
+table tr td .table-td-name-customer {
+    width: 25rem;
+}
+
+/* icons design  */
+#td-icon-customer-edit,
+#td-icon-customer-delete,
+#td-icon-savetheday-delete,
+#td-icon-savetheday-print {
+    text-align: center;
+    width: 5rem;
+    height: 2rem;
+}
+
+#td-icon-customer-edit a{
+    padding: 0.5rem 2rem;
+    border-radius: 40px;
+}
+#td-icon-customer-delete a,
+#td-icon-savetheday-delete a,
+#td-icon-savetheday-print a {
+    padding: 0.5rem 2rem;
+    border-radius: 40px;
+}
+
+#td-icon-customer-edit a {
+    background: rgb(252, 211, 64);
+}
+
+#td-icon-customer-delete a,
+#td-icon-savetheday-delete a {
+    background: rgb(249, 101, 101);
+}
+
+#td-icon-savetheday-print a{
+    background: gray;
+}
+
+#td-icon-customer-edit a i {
+    font-size: 20px;
+    color: gray;
+}
+#td-icon-customer-delete a i,
+#td-icon-savetheday-delete a i{
+    font-size: 20px;
+    color: gray;
+  }
+
+
+
+
+
+/* Page customer add  */
+.customer-menu h3{
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    font-size: 25px;
+}
+.form-customer-add{
+    position: absolute;
+    left: 6rem;
+    top: 10rem;
+}
+.form-customer-add input{
+    margin: .5rem 0;
+    font-size: 20px;
+    background: rgb(213, 213, 213);
+    border: none;
+}
+.form-customer-add label{
+    margin: .5rem 0;
+    font-size: 23px;   
+}
+
+.button-close_add-customer{
+    display: flex;
+    position: absolute;
+    left: 11rem;
+    top: 18rem;
+}
+.button-close_add-customer button{
+    margin-left: 1.5rem;
+    background: rgb(84, 173, 242);
+    border: none;
+    padding: .7rem 1rem;
+    /* font-size: .7rem 1rem; */
+    border-radius: 30px;
+    cursor: pointer;
+}
+.button-close_add-customer a{
+    text-decoration: none;
+    background: rgb(213, 213, 213);
+    border: none;
+    padding: .7rem 1rem;
+    border-radius: 30px;
+    color: #111;
+}
+
+
+
+
+
+/* Page edit customer  */
+.customer-menu{
+    height: 100vh;
+}
+.customer-menu h3{
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    font-size: 25px;
+}
+.form-customer-add{
+    position: absolute;
+    left: 6rem;
+    top: 10rem;
+}
+.form-customer-add input{
+    margin: .5rem 0;
+    font-size: 20px;
+    background: rgb(213, 213, 213);
+    border: none;
+}
+.form-customer-add label{
+    margin: .5rem 0;
+    font-size: 23px;   
+}
+
+ /* add  */
+.button-close_add-customer{
+    display: flex;
+    position: absolute;
+    left: 11rem;
+    top: 18rem;
+}
+.button-close_add-customer button{
+    margin-left: 1.5rem;
+    background: rgb(84, 173, 242);
+    border: none;
+    padding: .7rem 1rem;
+    /* font-size: .7rem 1rem; */
+    border-radius: 30px;
+    cursor: pointer;
+}
+.button-close_add-customer a{
+    text-decoration: none;
+    background: rgb(213, 213, 213);
+    border: none;
+    padding: .7rem 1rem;
+    border-radius: 30px;
+    color: #111;
+}
+
+ /* edit  */
+.button-close_edit-customer{
+    display: flex;
+    position: absolute;
+    left: 11rem;
+    top: 18rem;
+}
+.button-close_edit-customer button{
+    margin-left: 1.5rem;
+    background: rgb(252, 211, 64);
+    border: none;
+    padding: .7rem 1rem;
+    /* font-size: .7rem 1rem; */
+    border-radius: 30px;
+    cursor: pointer;
+}
+.button-close_edit-customer a{
+    text-decoration: none;
+    background: rgb(213, 213, 213);
+    border: none;
+    padding: .7rem 1rem;
+    border-radius: 30px;
+    color: #111;
+}

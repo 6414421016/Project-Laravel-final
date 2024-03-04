@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --gray-background-color: rgba(255, 255, 255, 0.498);
+    --green-background-color: rgb(106, 142, 106);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url(https://th.bing.com/th/id/R.bdbea12d7ba59e64620522b7ae6f5845?rik=c41JqstnYoTKGA&riu=http%3a%2f%2fwww.thaihealth.or.th%2fdata%2fcontent%2f2016%2f12%2f34432%2fcms%2fthaihealth_c_bdeghjrt1359.jpg&ehk=oMSD1DQ1PedSnCXmGGHIfWjqhB4m2eS6szCoKv%2bZC4U%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+/* section */
+section{
+    height: 100vh;
+    width: 90%;
+    /* border: 1px solid red; */
+    background: rgba(254, 255, 254, 0.662);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 4px 4px 6px  2px rgba(34, 34, 34, 0.763);
+}
+
+/* header  */
+header{
+    /* border: 1px solid blue; */
+    background: var(--gray-background-color);
+    /* height: 90vh; */
+    width: 100%; 
+}
+.edit{
+    display: flex;
+    justify-content: center;
+}
+.edit p{
+    font-size: 20px;
+}
+.edit i{
+    font-size: 25px;
+    margin-left: .2rem;
+}
+.user-id{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    width: 100%;
+}
+.text-user{
+    text-align: center;
+    margin: 0 3rem;
+}
+.text-user p{
+    font-size: 18px;
+}
+.text-user h3{
+    margin-bottom: 1rem;
+}
+.text-user a{
+    color: rgb(255, 52, 52);
+    text-align: right;
+    text-decoration: none;
+    /* background: rgb(255, 76, 76); */
+    width: 10rem;
+    border-radius: 10px;
+}
+.img-user{
+    /* border: 1px solid orange; */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: .6rem;
+}
+.img-user img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-top: -1rem;
+}
+.user-id-box1{
+    margin-top: 1rem;
+}
+
+
+
+.menu{
+    display: flex;
+    width: 20vw;
+    margin-left: 2rem;
+}
+.menu-item1 a, .menu-item2 a,
+.menu-item3 a, .menu-item4 a,
+.menu-item5 a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+.menu-item1 a:hover, .menu-item2 a:hover,
+.menu-item3 a:hover, .menu-item4 a:hover,
+.menu-item5 a:hover{
+    color: black;
+}
+.menu i{
+    font-size: 60px;
+    margin: .3rem .6rem;
+    color: rgb(80, 80, 80);
+}
+.menu h2{
+    font-size: 30px;
+    font-weight: 200;
+}
+.menu-item1,.menu-item2,.menu-item3,.menu-item4,.menu-item5{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    margin: 0 1rem;
+}
+.menu-item1:hover,
+.menu-item2:hover,
+.menu-item3:hover,
+.menu-item4:hover,
+.menu-item5:hover {
+    background: rgb(186, 186, 186);
+    border-radius: 40px;
+    color: aliceblue;
+    transition: all .5s ease;
+}
+
+
+
+.menu-item1.active, .menu-item2.active, .menu-item3.active, .menu-item4.active, .menu-item5.active {
+    background: rgb(50, 50, 50);
+    border-radius: 40px;
+    color: aliceblue;
+}
